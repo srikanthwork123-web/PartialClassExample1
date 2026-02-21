@@ -61,7 +61,7 @@ namespace PartialClassExample1
         public void SixthPartalMethod()
         {
             Console.WriteLine("SixthPartalMethod");
-        }
+        }       
     }
     public partial class sample
     {
@@ -69,6 +69,8 @@ namespace PartialClassExample1
         {
             Console.WriteLine("SeventhPartalMethod");
         }
+        //we can't write abstarct methods in partial class.if you write it will throw compiletime error
+       // public abstract void getdata();
     }
     public partial class sample
     {
